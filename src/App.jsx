@@ -1,12 +1,11 @@
 import "./App.css";
+import Emoji from "./components/Emoji";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-font">Emoji Search Appliation</h1>
-      <form>
-        <textarea placeholder="Type-------" roll="20"  ></textarea>
-      </form>
+    <div className="text-white py-4">
+      <Emoji/>
+      
     </div>
   );
 }
